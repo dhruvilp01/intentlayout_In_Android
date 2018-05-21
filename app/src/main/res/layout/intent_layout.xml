@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/imageDisplay"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Intent !"/>
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Picture"/>
+    <Button
+        android:id="@+id/dialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial a Number"/>
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"/>
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Location"/>
+    <Button
+        android:id="@+id/openWebPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open Web Page" />
+    <Button
+        android:id="@+id/viewIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Intent" />
+    <Button
+        android:id="@+id/letsgetpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="25dp"
+        android:text="Lets get Pro"
+        android:paddingBottom="15dp" />
+    <Button
+        android:id="@+id/viaPackageManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="35dp"
+        android:background="#ffff"
+        android:text="Intent Via PAckage manager" />
+
+</LinearLayout>
